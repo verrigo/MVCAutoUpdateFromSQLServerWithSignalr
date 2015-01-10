@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCAutoUpdateFromSQLServerWithSignalr", "MVCAutoUpdateFromSQLServerWithSignalr\MVCAutoUpdateFromSQLServerWithSignalr.csproj", "{B3820E9D-0EB9-4B52-8C28-4168F2FE164D}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TestDataBase", "TestDataBase\TestDataBase.sqlproj", "{A26DEBBA-6AAE-4005-A16A-F07E24F69B59}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3820E9D-0EB9-4B52-8C28-4168F2FE164D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3820E9D-0EB9-4B52-8C28-4168F2FE164D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3820E9D-0EB9-4B52-8C28-4168F2FE164D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3820E9D-0EB9-4B52-8C28-4168F2FE164D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26DEBBA-6AAE-4005-A16A-F07E24F69B59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A26DEBBA-6AAE-4005-A16A-F07E24F69B59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A26DEBBA-6AAE-4005-A16A-F07E24F69B59}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A26DEBBA-6AAE-4005-A16A-F07E24F69B59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A26DEBBA-6AAE-4005-A16A-F07E24F69B59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A26DEBBA-6AAE-4005-A16A-F07E24F69B59}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

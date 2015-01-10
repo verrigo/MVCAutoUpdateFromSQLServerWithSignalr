@@ -1,0 +1,22 @@
+﻿@model IEnumerable<MVCAutoUpdateFromSQLServerWithSignalr.Models.SalesNotifications>
+@using GridMvc.Html;
+@{
+    ViewBag.Title = "_SalesNotificationsList";
+}
+
+<h2>Sales Notifications</h2>
+
+@Html.Grid(Model).Columns(columns =>
+           {
+
+               columns.Add(d => d.Id)
+                .Encoded(false)
+                .Sanitized(false)
+                .SetWidth(130)
+                .RenderValueAs(d =>
+                    @<b>
+                        @Html.ActionLink("Mark As Read", "MarkSalesNotificationAsRead", new { Id = d.Id })
+                    </b>);
+               columns.Add(foo => foo.ProductName).Sortable(true).Filterable(true).Titled("Product Name");
+               columns.Add(foo => foo.Quantity).Sortable(true);
+           })
